@@ -69,7 +69,7 @@ resource "azurerm_linux_virtual_machine" "testvm01_vm" {
   }
 }
 
-# EDA 트리거 발동을 위한 action
+# EDA 트리거 발동을 위한 action 
 action "aap_eda_eventstream_post" "testvm01_call_eda" {
   config {
     limit		= "terraform_aap"
