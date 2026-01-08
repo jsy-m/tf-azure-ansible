@@ -64,7 +64,7 @@ resource "azurerm_linux_virtual_machine" "testvm01_vm" {
   lifecycle {
     action_trigger {
       events	= [after_create]
-      actions	= [action.aap_eda_eventstream_post.call_eda]
+      actions	= [action.aap_eda_eventstream_post.testvm01_call_eda]
     }
   }
 }
