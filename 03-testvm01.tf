@@ -1,4 +1,4 @@
-# 생성할 vm 이름
+# 생성할 vm 이름 
 variable "az_vm_name_01" {
   description   = "신규 생성할 vm 이름"
   type          = string
