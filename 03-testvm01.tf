@@ -14,7 +14,7 @@ resource "azurerm_public_ip" "testvm01_pip" {
   sku 		      = "Standard"
 }
 
-# 네트워크 인터페이스
+# 네트워크 인터페이스 
 resource "azurerm_network_interface" "testvm01_nic" {
   name                = "${var.az_vm_name_01}-nic"
   location            = azurerm_resource_group.rg.location
