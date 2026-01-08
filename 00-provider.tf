@@ -2,7 +2,7 @@ terraform {
   cloud {    
     organization = "rp-sy" 
     workspaces { 
-      name = "azure-aap" 
+      name = "tf-azure-ansible" 
     } 
   } 
 
