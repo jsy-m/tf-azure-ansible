@@ -4,7 +4,7 @@ variable "az_vm_name_02" {
   type          = string
   default	= "testvm02"
 }
-
+ 
 # 퍼블릭 IP
 resource "azurerm_public_ip" "testvm02_pip" {
   name                = "${var.az_vm_name_02}-pubip"
