@@ -59,6 +59,7 @@ resource "azurerm_linux_virtual_machine" "testvm02_vm" {
   }
   tags = {
     provisioner	= "terraform"
+    date        = "2026020612"
   }
 
   lifecycle {
